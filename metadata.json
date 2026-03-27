@@ -1,0 +1,5 @@
+{
+  "name": "Apex Patient Experience",
+  "description": "Offline-first Patient Experience Survey Platform for capturing feedback, managing complaints, and analyzing KPIs without external dependencies.",
+  "requestFramePermissions": []
+}

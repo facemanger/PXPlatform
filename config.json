@@ -1,0 +1,28 @@
+{
+  "server": {
+    "port": 88,
+    "host": "0.0.0.0",
+    "useHttps": true,
+    "sslCertPath": "./server.pfx"
+  },
+  "network": {
+    "externalAccess": true,
+    "allowedIPs": ["0.0.0.0/0"],
+    "corsOrigins": ["*"]
+  },
+  "platform": {
+    "name": "Hospital Patient Experience Platform",
+    "version": "2.0.0",
+    "defaultLanguage": "ar"
+  },
+  "urls": {
+    "local": "https://localhost",
+    "network": "https://0.0.0.0",
+    "recommendedDomain": "https://hospital.yourdomain.com"
+  },
+  "security": {
+    "sessionTimeout": 3600000,
+    "maxFileSize": 5242880,
+    "allowedImageTypes": ["image/jpeg", "image/png", "image/gif"]
+  }
+}
